@@ -1,0 +1,25 @@
+# model
+backbone: 'mobilenet0.25'
+return_layers: {'stage1': 1, 'stage2': 2, 'stage3': 3}
+in_channels: 32
+out_channels: 64
+weights: null
+
+image_size: 640
+batch_size: 32
+min_sizes: [[16, 32], [64, 128], [256, 512]]
+strides: [8, 16, 32]
+variance: [0.1, 0.2]
+clip: false
+box_weight: 2.0
+
+epochs: 250
+milestones : [190, 220]
+
+datapath: ../../../data/widerface/train/label.txt
+num_workers: 8
+momentum: 0.9
+weight_decay: 0.0005
+lr: 0.001
+gamma: 0.1
+
