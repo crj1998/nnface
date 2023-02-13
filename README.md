@@ -8,7 +8,7 @@ clone and setup
 recommend install `gdown` for download file from google drive.
 
 ### Datasets
-We use [FairFace](https://github.com/joojs/fairface) for classification.
+We use [FairFace](https://github.com/joojs/fairface) and [UTKFace](https://susanqq.github.io/UTKFace/) for classification.
 
 #### FairFace
 [FairFace](https://github.com/joojs/fairface) is a face image dataset which is race balanced. It contains 108,501 images from 7 different race groups: White, Black, Indian, East Asian, Southeast Asian, Middle Eastern, and Latino. Images were collected from the YFCC-100M Flickr dataset and labeled with race, gender, and age groups. 
